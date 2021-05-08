@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    display: flex;
+    color:rgba(167, 90, 197, 0);
+    background-color: bisque;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:3em;
+    margin:3%;
+    width:9em;
+    line-height: 10em;
+    height: 7em;
+    border-radius: 2em;
+    
+    /* flex-basis:auto ; */
+}
+.box:hover{
+    cursor: pointer;
+}
+/* .cont{
+    display:flex;
+} */
+#boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+/* #box1{
+    background-color:color;
+} */
+.button{
+    display:flex;
+    
+    justify-content: center;
+   
+}
+.cont{
+    display: inline-block;
+    text-align: center;
+    font-family:'Itim', cursive;;
+}
+ /* width:20%; */
